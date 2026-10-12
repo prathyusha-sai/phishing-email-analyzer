@@ -1,7 +1,7 @@
 # Phishing Email Analyzer
 
 A beginner-friendly SOC project: a Python script that reads a suspicious `.eml`
-file and produces a triage verdict report — header anomalies, spoofed domains,
+file and produces a triage verdict report -header anomalies, spoofed domains,
 lookalike URLs, risky attachments, and urgency language. It automates the same
 checks a Tier 1 SOC analyst runs by hand.
 
