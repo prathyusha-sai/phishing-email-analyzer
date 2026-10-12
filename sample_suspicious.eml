@@ -1,0 +1,50 @@
+Return-Path: <bounce@malicious-relay.example>
+From: "PayPal Security Team" <security@paypaI-secure-login.com>
+To: victim@example.com
+Reply-To: "PayPal Support" <helpdesk@totally-different-domain.example>
+Subject: URGENT: Your PayPal account will be SUSPENDED - verify immediately
+Date: Thu, 08 Oct 2026 10:41:00 -0500
+MIME-Version: 1.0
+Content-Type: multipart/mixed; boundary="===============SAMPLE123456=="
+
+--===============SAMPLE123456==
+Content-Type: multipart/alternative; boundary="===============ALT987654=="
+
+--===============ALT987654==
+Content-Type: text/plain; charset="utf-8"
+
+Dear customer,
+
+We have detected unauthorized access on your PayPal account. Your account
+will be SUSPENDED within 24 hours unless you verify your identity immediately.
+
+Click here to verify your account now: http://203.0.113.44/login/verify
+
+This is your LAST CHANCE. Action required — confirm now.
+
+Thank you,
+PayPal Security Team
+
+--===============ALT987654==
+Content-Type: text/html; charset="utf-8"
+
+<html><body>
+<p>Dear customer,</p>
+<p>We have detected <b>unauthorized access</b> on your PayPal account.
+Your account will be <b>SUSPENDED</b> within 24 hours unless you verify
+your identity <b>immediately</b>.</p>
+<p><a href="http://paypaI-secure-login.com/account/verify?token=abc123">https://www.paypal.com/signin</a></p>
+<p>This is your <b>LAST CHANCE</b>. Action required — confirm now.</p>
+<p>Thank you,<br>PayPal Security Team</p>
+</body></html>
+
+--===============ALT987654==--
+
+--===============SAMPLE123456==
+Content-Type: application/octet-stream; name="Invoice_2026-10.exe"
+Content-Disposition: attachment; filename="Invoice_2026-10.exe"
+Content-Transfer-Encoding: base64
+
+U0FNUExFX1NZU1RFSVRJQ19GSUxFX0RPX05PVF9SVU4=
+
+--===============SAMPLE123456==--
